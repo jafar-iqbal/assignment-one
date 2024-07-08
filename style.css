@@ -284,10 +284,11 @@ p {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.discount-image-container{
+.discount-image-container {
   position: relative;
+  margin-bottom: 120px;
 }
-.Rectangle2{
+.Rectangle2 {
   position: absolute;
   bottom: -4%;
   z-index: -1;
@@ -295,7 +296,6 @@ p {
 .discount-image {
   gap: 95px;
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -309,3 +309,46 @@ p {
   bottom: 10%;
   left: -35%;
 }
+.portfolio h6,
+h2,
+p {
+  margin-bottom: 20px;
+}
+.portfolio h6 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.single-gallery {
+  flex: 1 0 30%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.single-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
