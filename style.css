@@ -181,7 +181,6 @@
   font-size: 48px;
   font-weight: 900;
   line-height: 60px;
-
 }
 .happy p {
   font-family: Inter;
@@ -196,4 +195,117 @@
   width: 364.84px;
   height: 364.84px;
   padding: 20px;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 0 auto;
+}
+
+.offer > div {
+  flex: 1;
+}
+.offer .first h3,
+h1,
+p {
+  margin-bottom: 10px;
+}
+.offer .first h3 {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer .first h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer .first p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.offer .second {
+  display: flex;
+  justify-content: center;
+  border: 20px solid #ff0000;
+  border-radius: 100%;
+  padding: 20px;
+}
+.second img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offer .third h2 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.offer .third p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.discount-text {
+  text-align: center;
+  margin-top: 120px;
+}
+.discount-text h6 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.discount-text h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.discount-text h2 span {
+  color: #ff0000;
+}
+.discount-text p {
+  width: 900px;
+  height: 96px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.discount-image-container{
+  position: relative;
+}
+.Rectangle2{
+  position: absolute;
+  bottom: -4%;
+  z-index: -1;
+}
+.discount-image {
+  gap: 95px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.discount-image-group {
+  position: relative;
+  margin-bottom: 201px;
+  z-index: -1;
+}
+.discount {
+  position: absolute;
+  bottom: 10%;
+  left: -35%;
 }
